@@ -2,7 +2,7 @@ import React, { useContext, useEffect } from 'react';
 import './App.css';
 import Home from './pages/Home';
 import SignupPage from './pages/Signup';
-import Login from './pages/Login';
+import LoginPage from './pages/Login';
 import CreatePage from './pages/create';
 import ViewPost from './pages/Viewpost'
 import Post from './store/PostContext';
@@ -37,7 +37,7 @@ function App() {
         
           <Route path='/' element={<Home />} />
           <Route path='/Signup' element={<SignupPage />} />
-          <Route path='/login' element={<Login />} /> 
+          <Route path='/login' element={<LoginPage />} /> 
           <Route path='Create' element={<CreatePage />} />
           <Route path='/view' element={<ViewPost /> } ></Route>
          
